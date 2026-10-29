@@ -1,0 +1,9 @@
+{
+  "train": "results/train.csv",
+  "val": "results/val.csv",
+  "test": "results/test.csv",
+  "attack_results": "results/attack_results.csv",
+  "benign_results": "results/benign_results.csv",
+  "external": "results/external_predictions.csv",
+  "indirect_external_source": "repository://external_source/indirect_external_source.csv"
+}

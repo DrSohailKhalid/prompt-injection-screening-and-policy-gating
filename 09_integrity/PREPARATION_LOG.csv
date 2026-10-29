@@ -1,0 +1,12 @@
+operation,scope,description
+de-identification,text and document metadata,Removed private storage paths and personal document properties
+name standardisation,repository paths and references,Replaced internal working labels with descriptive reviewer-facing names
+notebook preparation,02_code/analysis_workflow.ipynb,Cleared saved outputs and made data and output roots configurable
+data inclusion,evidence/00_frozen_screen_source/results,Added the four byte-identical frozen screening records verified against the recorded hashes
+integrity,entire repository,Generated a package-wide SHA-256 manifest and verification script
+third-party text redaction,"24 top-level CSV files, one XLSX file and one nested archive",Removed ChatGPT Jailbreak Prompts text and source-derived passages while preserving frozen non-text outcomes
+external record derivation,external_predictions.csv,Replaced external raw text with study-local identifiers and exact SHA-256 content hashes
+source documentation,01_documentation and 02_code,"Added source manifest, redaction audit and a local hash-mapping script"
+integrity regeneration,entire corrected repository,Regenerated package-wide SHA-256 checksums after redaction
+second-pass redaction,"model responses in 20 top-level CSV files, one XLSX file and one nested archive","Redacted 1,298 response cells that still reproduced 40 or more consecutive characters of the source records; all other cells unchanged"
+public package preparation,14 response cells in 11 CSV files,Targeted residual correction; repository authors added; public documentation replaced; checksums regenerated; frozen non-response fields preserved

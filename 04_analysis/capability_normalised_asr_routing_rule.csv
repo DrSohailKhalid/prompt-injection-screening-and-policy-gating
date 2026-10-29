@@ -1,0 +1,13 @@
+model_key,rule,population,capability_threshold,events,n,rate,ci_low,ci_high
+mistral,published_substring_routing,all_attack_trials,0.5,109,315,0.346031746031746,0.29358008419606335,0.4014107116919152
+mistral,published_substring_routing,capability_normalised_safe_TCR_at_least_0.50_for_tool,0.5,109,315,0.346031746031746,0.29358008419606335,0.4014107116919152
+mistral,boundary_routing,all_attack_trials,0.5,91,315,0.28888888888888886,0.23944365236418183,0.34235520095044353
+mistral,boundary_routing,capability_normalised_safe_TCR_at_least_0.50_for_tool,0.5,91,315,0.28888888888888886,0.23944365236418183,0.34235520095044353
+phi35,published_substring_routing,all_attack_trials,0.5,147,315,0.4666666666666667,0.4105279766175601,0.5234380119444505
+phi35,published_substring_routing,capability_normalised_safe_TCR_at_least_0.50_for_tool,0.5,147,315,0.4666666666666667,0.4105279766175601,0.5234380119444505
+phi35,boundary_routing,all_attack_trials,0.5,122,315,0.3873015873015873,0.33320463864387523,0.4435393403297538
+phi35,boundary_routing,capability_normalised_safe_TCR_at_least_0.50_for_tool,0.5,122,315,0.3873015873015873,0.33320463864387523,0.4435393403297538
+tinyllama,published_substring_routing,all_attack_trials,0.5,63,315,0.2,0.1572449114891417,0.24849856087949934
+tinyllama,published_substring_routing,capability_normalised_safe_TCR_at_least_0.50_for_tool,0.5,31,189,0.164021164021164,0.11424775486353606,0.22466239876356425
+tinyllama,boundary_routing,all_attack_trials,0.5,51,315,0.1619047619047619,0.12298740286935855,0.20731892500463664
+tinyllama,boundary_routing,capability_normalised_safe_TCR_at_least_0.50_for_tool,0.5,31,189,0.164021164021164,0.11424775486353606,0.22466239876356425

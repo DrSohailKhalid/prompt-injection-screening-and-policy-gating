@@ -1,0 +1,21 @@
+{
+  "direct_unique_cases": 105,
+  "direct_selection_rule": "two outcome-blind cases per non-empty mechanism x target-tool stratum",
+  "safe_unique_cases": 70,
+  "indirect_unique_documents": 60,
+  "indirect_source": "repository://external_source/indirect_external_source.csv",
+  "indirect_condition_rows_per_seed": 240,
+  "rows_per_seed": 415,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "generations_per_model": 1245,
+  "models": 3,
+  "total_generations": 3735,
+  "max_new_tokens_direct": 256,
+  "max_new_tokens_indirect": 128,
+  "source_balanced_detector_rerun": false,
+  "source_balanced_detector_reason": "source and label are perfectly confounded in the frozen external set"
+}

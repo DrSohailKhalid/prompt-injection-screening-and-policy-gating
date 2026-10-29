@@ -1,0 +1,4 @@
+model,rows,calls_snapshot,calls_review_copy,calls_recovered,safe_correct_snapshot,safe_correct_review_copy,safe_rows,safe_completion_snapshot,safe_completion_review_copy,validation_snapshot_file
+tinyllama,1245,325,325,0,96,96,210,0.45714285714285713,0.45714285714285713,tinyllama_parser_validation_snapshot_20260917T113449Z.csv
+phi35,1245,452,452,0,188,188,210,0.8952380952380953,0.8952380952380953,phi35_parser_validation_snapshot_20260917T113449Z.csv
+mistral,1245,400,400,0,204,204,210,0.9714285714285714,0.9714285714285714,mistral_parser_validation_snapshot_20260917T113449Z.csv

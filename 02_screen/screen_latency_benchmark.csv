@@ -1,0 +1,2 @@
+n_single_item_calls,mean_ms,median_ms,p95_ms,note
+100,15.210816609994708,15.197399000044243,15.947368850038401,single-record CPU scoring; used as an estimated per-request cost

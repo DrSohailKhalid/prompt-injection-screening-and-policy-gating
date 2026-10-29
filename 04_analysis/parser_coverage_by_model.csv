@@ -1,0 +1,4 @@
+model,legacy_parser_calls,unified_parser_calls,missed_by_published_parser,pct_missed,safe_task_completion
+tinyllama,263,325,62,19.1,0.457
+phi35,284,452,168,37.2,0.895
+mistral,77,400,323,80.8,0.971

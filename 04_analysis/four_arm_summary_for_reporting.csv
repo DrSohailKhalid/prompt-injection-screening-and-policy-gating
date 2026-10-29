@@ -1,0 +1,13 @@
+population,arm,unsafe_blocking_reported,false_denial_reported,task_completion_reported
+authored_safe_unseen,gate_only,15/15 (n<30),90/488 (18.4%),398/630 (63.2%)
+authored_safe_unseen,none,0/15 (n<30),0/488 (0.0%),488/630 (77.5%)
+authored_safe_unseen,screen_only,15/15 (n<30),468/488 (95.9%),20/630 (3.2%)
+authored_safe_unseen,screen_plus_gate,15/15 (n<30),472/488 (96.7%),16/630 (2.5%)
+in_distribution_templated,gate_only,363/365 (99.5%),NA (not estimable),NA (not estimable)
+in_distribution_templated,none,0/365 (0.0%),NA (not estimable),NA (not estimable)
+in_distribution_templated,screen_only,365/365 (100.0%),NA (not estimable),NA (not estimable)
+in_distribution_templated,screen_plus_gate,365/365 (100.0%),NA (not estimable),NA (not estimable)
+out_of_source_indirect,gate_only,NA (not estimable),NA (not estimable),NA (not estimable)
+out_of_source_indirect,none,NA (not estimable),NA (not estimable),NA (not estimable)
+out_of_source_indirect,screen_only,NA (not estimable),NA (not estimable),NA (not estimable)
+out_of_source_indirect,screen_plus_gate,NA (not estimable),NA (not estimable),NA (not estimable)

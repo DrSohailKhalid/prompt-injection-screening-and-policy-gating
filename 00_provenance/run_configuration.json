@@ -1,0 +1,31 @@
+{
+  "models": {
+    "tinyllama": {
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "native_tools": false,
+      "trust_remote_code": false
+    },
+    "phi35": {
+      "model_id": "microsoft/Phi-3.5-mini-instruct",
+      "native_tools": false,
+      "trust_remote_code": false
+    },
+    "mistral": {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "native_tools": true,
+      "trust_remote_code": false
+    }
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "max_new_tokens_direct": 256,
+  "max_new_tokens_indirect": 128,
+  "quantisation": "bitsandbytes NF4 4-bit, double quantisation, float16 compute",
+  "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "gpu_class": "A100"
+}

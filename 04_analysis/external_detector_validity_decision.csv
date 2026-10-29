@@ -1,0 +1,2 @@
+perfect_source_label_confounding,decision
+True,"A source-balanced external rerun is not identifiable from this set. Classifier results are presented as a demonstration of dataset confounding. A benign-source holdout in Cell 10 is a partial substitute measuring benign-source sensitivity only."

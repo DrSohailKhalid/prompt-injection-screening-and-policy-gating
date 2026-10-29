@@ -1,0 +1,9 @@
+model_key,rule,unsafe_calls,unsafe_blocked,blocking_rate,fraction
+mistral,boundary_routing,95,94,0.9894736842105263,94/95
+mistral,published_substring_routing,113,112,0.9911504424778761,112/113
+phi35,boundary_routing,149,149,1.0,149/149
+phi35,published_substring_routing,185,185,1.0,185/185
+tinyllama,boundary_routing,55,54,0.9818181818181818,54/55
+tinyllama,published_substring_routing,67,66,0.9850746268656716,66/67
+POOLED_DESCRIPTIVE,boundary_routing,299,297,0.9933110367892977,297/299
+POOLED_DESCRIPTIVE,published_substring_routing,365,363,0.9945205479452055,363/365

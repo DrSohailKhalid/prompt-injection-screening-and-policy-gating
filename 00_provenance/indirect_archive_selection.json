@@ -1,0 +1,14 @@
+{
+  "source_archive": "repository://external_source/indirect_external_source.csv",
+  "is_external_source_result": true,
+  "id_column": "sample_id",
+  "text_column": "original_text",
+  "label_column": "label",
+  "generation_rows_attack": 237,
+  "generation_rows_benign": 237,
+  "unique_documents_before_dedup": 158,
+  "unique_attack_documents": 78,
+  "unique_benign_documents": 79,
+  "selected_per_class": 30,
+  "verified_against": "published 0/234 attack and 0/237 benign generations"
+}

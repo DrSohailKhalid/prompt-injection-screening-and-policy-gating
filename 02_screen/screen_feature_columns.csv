@@ -1,0 +1,160 @@
+column_index_zero_based,feature_group,feature_name
+0,manual_query_feature,avg_word_length
+1,manual_query_feature,bracket_count
+2,manual_query_feature,colon_count
+3,manual_query_feature,digit_ratio
+4,manual_query_feature,exclamation_count
+5,manual_query_feature,has___
+6,manual_query_feature,has_admin
+7,manual_query_feature,has_all_caps_word
+8,manual_query_feature,has_bash
+9,manual_query_feature,has_bypass
+10,manual_query_feature,has_cmd
+11,manual_query_feature,has_confidential
+12,manual_query_feature,has_credential
+13,manual_query_feature,has_critical
+14,manual_query_feature,has_delete
+15,manual_query_feature,has_destroy
+16,manual_query_feature,has_disable
+17,manual_query_feature,has_drop
+18,manual_query_feature,has_emergency
+19,manual_query_feature,has_eval
+20,manual_query_feature,has_exec
+21,manual_query_feature,has_execute
+22,manual_query_feature,has_ignore
+23,manual_query_feature,has_immediately
+24,manual_query_feature,has_import
+25,manual_query_feature,has_key
+26,manual_query_feature,has_multiple_sentences
+27,manual_query_feature,has_os.
+28,manual_query_feature,has_override
+29,manual_query_feature,has_password
+30,manual_query_feature,has_powershell
+31,manual_query_feature,has_priority
+32,manual_query_feature,has_private
+33,manual_query_feature,has_remove
+34,manual_query_feature,has_root
+35,manual_query_feature,has_secret
+36,manual_query_feature,has_sensitive
+37,manual_query_feature,has_shell
+38,manual_query_feature,has_subprocess
+39,manual_query_feature,has_sudo
+40,manual_query_feature,has_system
+41,manual_query_feature,has_token
+42,manual_query_feature,has_urgent
+43,manual_query_feature,lowercase_ratio
+44,manual_query_feature,newline_count
+45,manual_query_feature,num_action_keywords
+46,manual_query_feature,num_authority_keywords
+47,manual_query_feature,num_data_keywords
+48,manual_query_feature,num_tech_keywords
+49,manual_query_feature,paren_count
+50,manual_query_feature,query_char_count
+51,manual_query_feature,query_length
+52,manual_query_feature,query_word_count
+53,manual_query_feature,question_count
+54,manual_query_feature,quote_count
+55,manual_query_feature,semicolon_count
+56,manual_query_feature,special_char_ratio
+57,manual_query_feature,uppercase_ratio
+58,manual_query_feature,whitespace_ratio
+59,tfidf_feature,__import__
+60,tfidf_feature,__import__ os
+61,tfidf_feature,about
+62,tfidf_feature,admin
+63,tfidf_feature,all
+64,tfidf_feature,an
+65,tfidf_feature,and
+66,tfidf_feature,api
+67,tfidf_feature,api_caller
+68,tfidf_feature,are
+69,tfidf_feature,as
+70,tfidf_feature,attacker
+71,tfidf_feature,attacker evil
+72,tfidf_feature,be
+73,tfidf_feature,calculate
+74,tfidf_feature,calculate user_id
+75,tfidf_feature,calculator
+76,tfidf_feature,can
+77,tfidf_feature,can use
+78,tfidf_feature,can you
+79,tfidf_feature,ceo
+80,tfidf_feature,ceo request
+81,tfidf_feature,com
+82,tfidf_feature,como
+83,tfidf_feature,could
+84,tfidf_feature,database_query
+85,tfidf_feature,de
+86,tfidf_feature,do
+87,tfidf_feature,earlier
+88,tfidf_feature,earlier you
+89,tfidf_feature,el
+90,tfidf_feature,email_sender
+91,tfidf_feature,en
+92,tfidf_feature,es
+93,tfidf_feature,evil
+94,tfidf_feature,evil com
+95,tfidf_feature,file_manager
+96,tfidf_feature,first
+97,tfidf_feature,first calculate
+98,tfidf_feature,for
+99,tfidf_feature,from
+100,tfidf_feature,have
+101,tfidf_feature,how
+102,tfidf_feature,if
+103,tfidf_feature,in
+104,tfidf_feature,in the
+105,tfidf_feature,is
+106,tfidf_feature,is the
+107,tfidf_feature,it
+108,tfidf_feature,la
+109,tfidf_feature,let
+110,tfidf_feature,list
+111,tfidf_feature,los
+112,tfidf_feature,me
+113,tfidf_feature,message
+114,tfidf_feature,my
+115,tfidf_feature,of
+116,tfidf_feature,of the
+117,tfidf_feature,on
+118,tfidf_feature,or
+119,tfidf_feature,os
+120,tfidf_feature,os system
+121,tfidf_feature,para
+122,tfidf_feature,que
+123,tfidf_feature,request
+124,tfidf_feature,request use
+125,tfidf_feature,said
+126,tfidf_feature,said can
+127,tfidf_feature,search
+128,tfidf_feature,should
+129,tfidf_feature,some
+130,tfidf_feature,system
+131,tfidf_feature,that
+132,tfidf_feature,the
+133,tfidf_feature,then
+134,tfidf_feature,then use
+135,tfidf_feature,therefore use
+136,tfidf_feature,think
+137,tfidf_feature,this
+138,tfidf_feature,to
+139,tfidf_feature,to attacker
+140,tfidf_feature,un
+141,tfidf_feature,una
+142,tfidf_feature,urgent
+143,tfidf_feature,urgent ceo
+144,tfidf_feature,use
+145,tfidf_feature,user_id
+146,tfidf_feature,user_id then
+147,tfidf_feature,was
+148,tfidf_feature,web_search
+149,tfidf_feature,what
+150,tfidf_feature,what are
+151,tfidf_feature,what is
+152,tfidf_feature,where
+153,tfidf_feature,which
+154,tfidf_feature,with
+155,tfidf_feature,would
+156,tfidf_feature,write
+157,tfidf_feature,you
+158,tfidf_feature,you said

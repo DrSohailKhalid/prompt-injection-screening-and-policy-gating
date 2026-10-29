@@ -1,0 +1,10 @@
+model,workload,n,flagged_serialised_all_fields,flagged_published_routing,rows_changed
+mistral,direct_attack,315,112,109,3
+mistral,indirect_summary,720,0,0,0
+mistral,safe_task,210,0,0,0
+phi35,direct_attack,315,154,147,7
+phi35,indirect_summary,720,0,0,0
+phi35,safe_task,210,15,15,0
+tinyllama,direct_attack,315,71,63,8
+tinyllama,indirect_summary,720,0,0,0
+tinyllama,safe_task,210,0,0,0

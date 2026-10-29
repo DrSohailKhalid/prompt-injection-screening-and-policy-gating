@@ -1,0 +1,27 @@
+section,metric,value,note
+direct attack,mistral endpoint activation (published routing),109/315 (34.6%),105 cases x 3 seeds
+direct attack,phi35 endpoint activation (published routing),147/315 (46.7%),105 cases x 3 seeds
+direct attack,tinyllama endpoint activation (published routing),63/315 (20.0%),105 cases x 3 seeds
+capability,mistral safe-task completion,204/210 (97.1%),70 tasks x 3 seeds
+capability,phi35 safe-task completion,188/210 (89.5%),70 tasks x 3 seeds
+capability,tinyllama safe-task completion,96/210 (45.7%),70 tasks x 3 seeds
+gate,mistral blocking (boundary_routing),94/95,
+gate,mistral blocking (published_routing),112/113,
+gate,phi35 blocking (boundary_routing),149/149,
+gate,phi35 blocking (published_routing),185/185,
+gate,tinyllama blocking (boundary_routing),54/55,
+gate,tinyllama blocking (published_routing),66/67,
+gate,POOLED (descriptive only) blocking (boundary_routing),297/299,
+gate,POOLED (descriptive only) blocking (published_routing),363/365,
+utility,no defence,488/630 (77.5%),safe-task completion
+utility,gate only,398/630 (63.2%),safe-task completion
+utility,screen only,20/630 (3.2%),safe-task completion
+utility,screen plus gate,16/630 (2.5%),not recommended
+screen,"flag rate, benign general prompts",0/1207 (0.0%),in-distribution test
+screen,"flag rate, benign tool tasks",67/70 (95.7%),authored safe tasks
+indirect,attack-document calls,1/90 generations; 1/30 documents,exact 95% CI 0.08%-17.22%; not estimable
+indirect,benign-document calls,4/90 generations,spontaneous tool use
+parser,missed by published regex,"tinyllama 19.1%, phi35 37.2%, mistral 80.8%",rises with structured calling
+endpoint,"legitimate tasks flagged, frozen vs boundary",15 vs 0,substring artifacts on safe tasks
+caveat,handler source in frozen archive,NOT FOUND,"use 'routing-corrected', never 'verbatim'"
+caveat,endpoint validation status,PENDING ANNOTATION,do not write 'validated'

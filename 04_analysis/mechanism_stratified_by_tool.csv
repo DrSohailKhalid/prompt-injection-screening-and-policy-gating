@@ -1,0 +1,4 @@
+model,analysis,statistic,p_value,note
+mistral,CMH mechanism | stratified by target tool,0.5080428749086835,0.47598731007927375,Mechanism and target tool are not independent by design; treat as descriptive.
+phi35,CMH mechanism | stratified by target tool,0.002732156788701558,0.958313527520519,Mechanism and target tool are not independent by design; treat as descriptive.
+tinyllama,CMH mechanism | stratified by target tool,0.002996213698345261,0.956347449418983,Mechanism and target tool are not independent by design; treat as descriptive.

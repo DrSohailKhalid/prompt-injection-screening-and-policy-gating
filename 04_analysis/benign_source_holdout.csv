@@ -1,0 +1,4 @@
+held_out_benign_source,n_test,tn,fp,fn,tp,benign_false_positive_rate,attack_recall
+deepset,331,29,0,0,302,0.0,1.0
+dolly,1494,1192,0,0,302,0.0,1.0
+oasst,2699,2325,72,0,302,0.030037546933667083,1.0

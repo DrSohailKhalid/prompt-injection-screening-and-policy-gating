@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using its computational evidence and cite the associated article separately."
+title: "Agent Safety: Computational Evidence"
+type: software
+authors:
+  - family-names: "Sohail"
+  - family-names: "Ali"
+    given-names: "Quratulain"
+abstract: "Analysis workflow and frozen computational evidence for agent-safety research accepted in Expert Systems with Applications."

@@ -1,0 +1,4 @@
+model,rows,failed_rows,file
+tinyllama,1245,0,03_raw_models/tinyllama_raw.csv
+phi35,1245,0,03_raw_models/phi35_raw.csv
+mistral,1245,0,03_raw_models/mistral_raw.csv

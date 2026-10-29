@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-09-17T11:50:14.728648+00:00",
+  "completed_model_rows": 3735,
+  "gate_blocking_count_check_passed": true,
+  "published_rule_escape_count": 2,
+  "legitimate_flagged_call_count": 15,
+  "capability_threshold": 0.5,
+  "raw_model_files_modified": false,
+  "status": "complete"
+}

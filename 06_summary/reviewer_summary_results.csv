@@ -1,0 +1,6 @@
+result,numerator,denominator,rate,interpretation
+Completed model generations,3735,3735,1.0,All planned generations completed across three model families.
+Routing-rule-positive calls blocked by gate,363,365,0.9945205479452055,Primary call-level gate-blocking result.
+Human-confirmed unsafe residual candidates,1,2,0.5,One of the two allowed residual candidates was genuinely unsafe.
+Human-confirmed harmless residual candidates,1,2,0.5,One allowed residual was a harmless web-search artifact.
+Targeted legitimate-task flags judged harmless,15,15,1.0,"Targeted edge-case finding, not a population false-positive estimate."

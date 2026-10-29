@@ -1,0 +1,10 @@
+category,0,1
+chain_exploitation,36,6
+code_injection,18,9
+context_poisoning,38,4
+data_exfiltration,25,5
+indirect_injection,29,13
+privilege_escalation,16,11
+reasoning_exploitation,33,9
+social_engineering,33,9
+tool_hijacking,16,5

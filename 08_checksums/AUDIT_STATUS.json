@@ -1,0 +1,24 @@
+{
+  "status": "TARGETED_CORRECTIONS_VERIFIED",
+  "response_cells_redacted": 14,
+  "csv_files_changed": 11,
+  "non_response_fields_preserved": true,
+  "full_source_similarity_audit_rerun": false,
+  "reason": "Original source prompt texts not supplied",
+  "historical_audit_from_input_archive_not_recertified": {
+    "third_party_source_records": 79,
+    "unique_third_party_source_texts": 78,
+    "top_level_csv_files_sanitized": 24,
+    "xlsx_files_sanitized": 1,
+    "nested_archives_sanitized": 1,
+    "residual_source_text_findings": 0,
+    "external_derived_fields_preserved": true,
+    "non_text_derived_fields_preserved": true,
+    "mapping_script_tested_for_records": 262,
+    "status": "PASS",
+    "second_pass_response_cells_redacted": 1298,
+    "second_pass_files_modified": 23,
+    "residual_text_rule": "No cell contains a 40-character sequence from the 79 source records, except generic refusal phrases that also occur in model responses to unrelated inputs",
+    "longest_remaining_generic_match_chars": 46
+  }
+}

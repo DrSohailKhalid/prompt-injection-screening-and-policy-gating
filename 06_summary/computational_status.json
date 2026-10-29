@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-18T16:02:58.561920+00:00",
+  "experiment_root": "repository://review_computational_workflow",
+  "models": [
+    "tinyllama",
+    "phi35",
+    "mistral"
+  ],
+  "planned_generations": 3735,
+  "completed_generations": 3735,
+  "routing_rule_positive_calls": 365,
+  "routing_rule_positive_calls_blocked": 363,
+  "routing_rule_blocking_rate": 0.9945205479452055,
+  "residual_candidates_reviewed": 2,
+  "human_confirmed_unsafe_residuals": 1,
+  "human_confirmed_harmless_residuals": 1,
+  "primary_annotation_rows": 157,
+  "primary_adjudicated_disagreements": 38,
+  "supplementary_annotation_rows": 12,
+  "supplementary_unresolved_rows": 0,
+  "combined_targeted_safe_flags_reviewed": 15,
+  "combined_targeted_safe_flags_judged_harmless": 15,
+  "manifest_file_count": 111,
+  "raw_model_files_modified_by_this_cell": false,
+  "annotation_source_files_modified_by_this_cell": false,
+  "computational_status": "complete",
+  "important_limitation": "The 15 legitimate-task edge cases form a targeted sample and are not an unbiased population false-positive estimate."
+}
